@@ -10,7 +10,6 @@ from functools import partial
 
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
-#GPIO SETUP
 channel = 17
 GPIO.setup(channel, GPIO.IN)
 firebase = firebase.FirebaseApplication('https://iot-dam-monitoring-system.firebaseio.com/', None)
